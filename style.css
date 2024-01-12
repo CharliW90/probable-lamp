@@ -60,6 +60,12 @@ li:hover {
     margin-left: 0rem;
 }
 
+audio {
+    max-width: 100px;
+    float: left;
+    margin-left: 500px;
+}
+
 a {
     font-family: "Bangers";
     font-size: 2rem;
@@ -103,6 +109,10 @@ img:hover {
     border-radius: 11%;
     max-width: 24rem;
     margin-left: 19rem;
+}
+
+.sneaky:hover {
+    visibility: visible;
 }
 
 .grid-container {
