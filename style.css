@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Bungee+Spice&family=Bangers&family=Blaka+Ink&display=swap');
+*{
+    font-family: Bodoni Moda;
+    color: linear-gradient(cyan, magenta);
+}
+
+body {
+    background: radial-gradient(#a400ff 0, #3b3b3b 10%, #d6d2d200 15%, #0b243a 50%, #d6d2d2 65%, #26483f 80%, #d6d2d200 95%),
+              repeating-linear-gradient(45deg, #a78b4178, #a548a07a 50px),
+              repeating-linear-gradient(135deg, #634610, #71b737 50px);
+}
+
+p {
+    background: linear-gradient(40deg, cyan, magenta);
+    color: rgb(0, 225, 255);
+    border-radius: 12%;
+    font-kerning:unset;
+    font-size: 3rem;
+    margin-left: -5rem;
+    width: 100%;
+    text-shadow: 1rem 1rem rgb(200, 0, 255);
+    text-decoration: wavy;
+}
+
+p:hover {
+    transform: scale(-1, -1);
+}
+
+h1 {
+    background: linear-gradient( cyan, darkblue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+
+h1:hover {
+    transform: scale(1, -1);
+}
+
+h2 {
+    background: linear-gradient( magenta, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    text-align: right;
+}
+
+h3 {
+    font-family: "Bungee Spice";
+}
+
+li {
+    font-family: "Bungee Spice";
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-left: 40rem;
+}
+
+li:hover {
+    margin-left: 0rem;
+}
+
+a {
+    font-family: "Bangers";
+    font-size: 2rem;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+a:hover {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    margin-top: -11rem;
+}
+
+img:hover {
+    visibility: hidden;
+}
+
+.border {
+    border-style: ridge;
+    border-width: 3rem;
+    border-color: goldenrod;
+}
+
+.snarky {
+    font-family: inherit;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.importantWords {
+    font-size: 7rem;
+    font-family: "Blaka Ink";
+}
+
+.meme {
+    border-radius: 11%;
+    max-width: 24rem;
+    margin-left: 19rem;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    font-size: 2rem;
+}
+
+.grid-item1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.grid-item2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.grid-item3 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
